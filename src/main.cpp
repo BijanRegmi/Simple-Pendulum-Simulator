@@ -6,7 +6,7 @@ int main(){
     sf::Event ev;
 
 
-    pendulum pend(1, 5, PI/4);
+    pendulum pend(1, 45, PI/4);
     pend.setupRenderobjects(600, 600);
 
     while(win.isOpen()){
